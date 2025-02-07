@@ -1,0 +1,42 @@
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: url('your-background-image.jpg') center/cover no-repeat;
+    height: 100vh;
+    color: white;
+}
+
+.hero-content {
+    padding: 20px;
+}
+
+.cta-button {
+    background-color: #008080;
+    padding: 15px 25px;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+#product-details {
+    display: flex;
+}
+
+.product-image {
+    width: 50%;
+}
+
+.product-info {
+    width: 50%;
+}
+
+#blog {
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-post {
+    margin-bottom: 20px;
+}
